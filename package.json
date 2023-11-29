@@ -7,6 +7,9 @@
     "start": "node server.js",
     "json:server": "json-server --watch data/db.json"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "Jose Rasmussen",
   "license": "MIT",
   "devDependencies": {
