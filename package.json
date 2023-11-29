@@ -4,8 +4,8 @@
   "description": "JSON server for the RealEstateCare prototype",
   "main": "server.js",
   "scripts": {
-    "json:server": "json-server --watch data/db.json",
-    "start": "node server.js"
+    "start": "node server.js",
+    "json:server": "json-server --watch data/db.json"
   },
   "author": "Jose Rasmussen",
   "license": "MIT",
