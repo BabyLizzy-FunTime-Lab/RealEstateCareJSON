@@ -1,0 +1,15 @@
+{
+  "name": "realestatecarejson",
+  "version": "1.0.0",
+  "description": "JSON server for the RealEstateCare prototype",
+  "main": "server.js",
+  "scripts": {
+    "json:server": "json-server --watch data/db.json",
+    "start": "node server.js"
+  },
+  "author": "Jose Rasmussen",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
